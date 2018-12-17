@@ -10,9 +10,11 @@ class ProfileCard extends Component {
     }
 
   render() {
+    const profile = this.props.profile;
+
     return (
       <div className="profileCard">
-        <h3 onClick={this.handleClick}>{this.props.profile.firstname}</h3>
+        <img onClick={this.handleClick} src={ profile.image } alt="Image not found."/>
       </div>
     );
   }

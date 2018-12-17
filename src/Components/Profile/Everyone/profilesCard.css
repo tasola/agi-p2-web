@@ -1,0 +1,13 @@
+.profilesCard {
+  /* display: flex; */
+  float:left;
+  width: 40vw;
+  height: 95vh;
+  background-color: red;
+}
+
+.profilesList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}

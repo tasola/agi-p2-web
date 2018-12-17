@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './informationCard.css';
 
 class InformationCard extends Component {
   constructor(props) {
@@ -7,8 +8,9 @@ class InformationCard extends Component {
 
   render() {
     return (
-      <div className="detailsCard">
-        <div>Get to know the team! Select a member to view details.</div>
+      <div className="informationCard">
+        <p>Get to know the team!</p>
+        <p>Select a member to view details.</p>
       </div>
     );
   }

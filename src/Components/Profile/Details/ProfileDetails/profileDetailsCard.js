@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './profileDetailsCard.css';
 
 class ProfileDetailsCard extends Component {
   constructor(props) {
@@ -9,15 +10,16 @@ class ProfileDetailsCard extends Component {
     const profile = this.props.selectedProfile;
 
     return (
-      <div className="detailsCard">
+      <div className="profileDetailsCard">
         <div>
-          <p>{ profile.id }</p>
-          <p>{ profile.firstname }</p>
-          <p>{ profile.lastname }</p>
+          <img src={ profile.image } alt="Image not found."/>
+          <p>{ profile.firstname } { profile.lastname }</p>
           <p>{ profile.role }</p>
           <p>{ profile.description }</p>
           <p>{ profile.github }</p>
           <p>{ profile.linkedin }</p>
+
+
         </div>
       </div>
     );

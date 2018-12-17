@@ -15,9 +15,9 @@ class ProfilesCard extends Component {
 
     return (
       <div className="profilesCard">
-        <div>
-          { allProfiles }
-        </div>
+          <div className="profilesList"> 
+            { allProfiles }
+          </div>
       </div>
     );
   }
