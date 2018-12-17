@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Startpage from './Startpage/startpage';
-import About from './Aboutpage/about';
-import Team from './Teampage/team';
+import Start from './Pages/Start/start';
+import About from './Pages/About/about';
+import Team from './Pages/Team/team';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Startpage />
+        <Start />
         <About />
         <Team />
       </div>
