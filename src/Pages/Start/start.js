@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './startpage.css';
+import './start.css';
 
-class Startpage extends Component {
+class Start extends Component {
   render() {
     return (
       <div className="startPage">
@@ -16,4 +16,4 @@ class Startpage extends Component {
   }
 }
 
-export default Startpage;
+export default Start;

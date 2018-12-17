@@ -1,6 +1,6 @@
 .startPage {
   height: 100vh;
-  background: url('./../resources/lake.jpg') no-repeat center center fixed;
+  background: url('./../../resources/lake.jpg') no-repeat center center fixed;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

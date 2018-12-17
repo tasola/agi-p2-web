@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './team.css';
 
-import ProfileCard from './../Components/profileCard';
+import ProfileCard from './../../Components/profileCard';
 
 class Team extends Component {
   render() {
