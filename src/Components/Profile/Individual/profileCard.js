@@ -5,10 +5,16 @@ class ProfileCard extends Component {
   constructor(props) {
     super(props);
   }
+  handleClick = () => {
+      this.props.onProfileClick(this.props.profile.id);
+    }
+
   render() {
+    const profile = this.props.profile;
+
     return (
       <div className="profileCard">
-        <h3>{this.props.name}</h3>
+        <img onClick={this.handleClick} src={ profile.image } alt="Image not found."/>
       </div>
     );
   }

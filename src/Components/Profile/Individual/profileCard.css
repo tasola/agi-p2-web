@@ -1,0 +1,12 @@
+.profileCard {
+  width: 50%;
+  height: auto;
+}
+
+.profileCard img {
+  display: flex;
+  border-radius: 50%;
+  width: 75%;
+  height: auto;
+  margin: auto;
+}
