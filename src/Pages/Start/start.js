@@ -6,7 +6,7 @@ class Start extends Component {
     return (
       <div className="startPage">
         <div className="headerWrapper">
-          <h2>VRStressed</h2>
+          <h2>vrstressed</h2>
         </div>
         <div className="scrollWrapper">
           <a className="icon-scroll" href="#about" />
