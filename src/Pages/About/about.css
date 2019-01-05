@@ -23,7 +23,7 @@
   position: absolute;
   right: 0px;
   z-index: 10;
-  background-color: red;
+  background-color: var(--green);
 }
 
 .aboutContentWrapper:after {
@@ -33,7 +33,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: red;
+  background: var(--green);
   -webkit-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   transform-origin: 100% 0;
@@ -44,5 +44,47 @@
 }
 
 .aboutContent {
-  padding: 15%;
+  padding: 12%;
+}
+
+.aboutCard {
+  position: relative;
+  width: 110%;
+  margin-left: -10%;
+  margin-top: 13%;
+}
+
+.aboutCard > p,
+.aboutCard > h3 {
+  margin-left: 20%;
+  margin-top: 1% !important;
+  margin-bottom: 1% !important;
+  text-align: left;
+}
+
+.aboutCard > img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-right: 20%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#inverseCard {
+  margin-left: 0%;
+}
+
+#inverseCard > p,
+#inverseCard > h3 {
+  margin-right: 25%;
+  margin-left: 0% !important;
+  text-align: right !important;
+}
+
+#inverseCard > img {
+  right: 0;
+  left: 80%;
 }

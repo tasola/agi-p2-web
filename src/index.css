@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
+:root {
+  --lavender: rgb(202, 203, 213);
+  --green: rgb(211, 212, 197);
+  --cloud: rgb(223, 227, 230);
+  --grey: rgb(219, 217, 219);
+  --granite: rgb(101, 110, 121);
+}
+
 html,
 body {
   width: 100%;
@@ -23,12 +31,23 @@ h3,
 h4,
 h5 {
   font-family: 'Abril Fatface';
+  color: var(--granite);
   font-size: 40pt;
+}
+
+h3 {
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 16pt;
 }
 
 p {
   font-family: 'Lora';
-  font-size: 15pt;
+  font-size: 13pt;
 }
 
 code {
