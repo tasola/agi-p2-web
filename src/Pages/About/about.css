@@ -1,31 +1,28 @@
 .aboutPageWrapper {
   height: 100vh;
-  overflow: hidden;
+}
+
+.aboutParallax {
   position: relative;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
 }
 
-.aboutImgWrapper {
+.aboutParallax > img {
   position: absolute;
-  min-height: 100vh;
-  min-width: 100vw;
-}
-
-.aboutImg {
-  min-height: 100vh;
-  min-width: 100vw;
-  background: url('https://s3-eu-west-1.amazonaws.com/grm-assets/18088/maxresdefault.jpg');
-  background-attachment: fixed;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin-left: -25%;
+  min-height: 130%;
+  min-width: 2500px;
 }
 
 .aboutContentWrapper {
   height: 100vh;
-  width: 50vw;
+  width: 45vw;
   position: absolute;
   right: 0px;
-  z-index: 1;
+  z-index: 10;
   background-color: red;
 }
 
