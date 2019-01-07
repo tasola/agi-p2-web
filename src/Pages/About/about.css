@@ -1,3 +1,34 @@
 .aboutPageWrapper {
   height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.aboutImgWrapper {
+  position: absolute;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.aboutImg {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: url('https://s3-eu-west-1.amazonaws.com/grm-assets/18088/maxresdefault.jpg');
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutContentWrapper {
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  background-color: red;
+}
+
+.aboutContent {
+  padding: 20%;
 }

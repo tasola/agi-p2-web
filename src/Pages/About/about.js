@@ -13,5 +13,5 @@ class About extends Component {
     );
   }
 }
-
+//Users/Petter/documents/github/agi-p2-web/src/resources/images/about/about.jpg
 export default About;
