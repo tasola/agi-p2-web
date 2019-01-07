@@ -13,7 +13,7 @@ class About extends Component {
         <Parallax className="aboutParallax" bgImage={aboutImg} strength={600}>
           <div className="aboutContentWrapper">
             <div className="aboutContent">
-              <h2>About</h2>
+              <h2>about</h2>
               <p>Lorem ipsum</p>
             </div>
           </div>
