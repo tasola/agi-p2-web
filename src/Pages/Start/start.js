@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import './start.css';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class Start extends Component {
   render() {
-    return (
-      <div className="startPage">
-        <div className="headerWrapper">
-          <h2>vrstressed</h2>
+   return (
+      <ScrollableAnchor id="startPage">
+        <div className="startPageWrapper">
+          <div className="headerWrapper">
+            <h2>vrStressed</h2>
+          </div>
+          <div className="scrollWrapper">
+            <a className="icon-scroll" href="#aboutPage" />
+          </div>
         </div>
-        <div className="scrollWrapper">
-          <a className="icon-scroll" href="#about" />
-        </div>
-      </div>
+      </ScrollableAnchor>
     );
   }
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
 import './about.css';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 import vrIcon from '../../resources/icons/vr.png';
 
@@ -9,8 +10,9 @@ const aboutImg = 'https://s3-eu-west-1.amazonaws.com/grm-assets/18088/maxresdefa
 
 class About extends Component {
   render() {
-    return (
+   return (
       <div className="aboutPage">
+        <ScrollableAnchor id="aboutPage">
         <Parallax className="aboutParallax" bgImage={aboutImg} strength={600}>
           <div className="aboutContentWrapper">
             <div className="aboutContent">
@@ -38,6 +40,7 @@ class About extends Component {
             </div>
           </div>
         </Parallax>
+        </ScrollableAnchor>
       </div>
     );
   }
