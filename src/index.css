@@ -25,6 +25,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+hr {
+  border-top: 1px solid var(--granite);
+  border-bottom: 1px solid transparent;
+}
+
 h1,
 h2,
 h3,
@@ -46,7 +51,7 @@ h4 {
 }
 
 p {
-  font-family: 'Abril Fatface';
+  font-family: 'Lora';
   font-size: 13pt;
 }
 
