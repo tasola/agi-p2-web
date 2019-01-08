@@ -1,9 +1,9 @@
 .profilesCard {
   /* display: flex; */
+  padding-top: 5%;
   float:left;
   width: 40vw;
   height: 95vh;
-  background-color: red;
 }
 
 .profilesList {

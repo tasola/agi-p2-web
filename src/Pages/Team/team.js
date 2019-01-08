@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './team.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import { Parallax, Background } from 'react-parallax';
 
 import ProfilesCard from './../../Components/Profile/Everyone/profilesCard';
 import DetailsCard from './../../Components/Profile/Details/detailsCard';
@@ -16,7 +17,17 @@ class Team extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedProfile: null,
+      selectedProfile: {
+        id: 2,
+        firstname: 'Linnea',
+        lastname: 'Holm',
+        role: 'WEB DEVELOPER / UX / COPY',
+        description:
+          "Responsible for the user experience of the game, Linnea has taken lead on the UX research, testing and evaluation during the development of this game. She has also been involved in some of the visual design decisions throughout the development process. At the later stages of the project, she was part of the website developing team, equally focused on coding and styling as well as being the project's copywriter.",
+        linkedin: 'https://www.linkedin.com/in/gustav-johansson-b85b42109/',
+        github: 'https://github.com/gustavjohansson',
+        image: ImageLinnea,
+      },
       profiles: [
         {
           id: 1,
@@ -107,12 +118,33 @@ class Team extends Component {
 
     return (
       <ScrollableAnchor id="teamPage">
-        <div className="teamPageWrapper">
-          <h2>About the Team</h2>
-          <ProfilesCard profiles={profiles} onProfileClick={onProfileClick} />
-          <DetailsCard selectedProfile={selectedProfile} />
-        </div>
+        <Parallax className="teamParallax" strength={600}>
+          <Background className="teamParallax">
+              <img src={selectedProfile.image} />
+          </Background>
+          <div class="teamDetails">
+            <DetailsCard selectedProfile={selectedProfile} />
+          </div>
+          <div className="teamContentWrapper">
+            <div className="teamContent">
+              <h2>team</h2>
+              <h4>Meet the creators.</h4>
+              <hr />
+              <ProfilesCard profiles={profiles} onProfileClick={onProfileClick} />
+            </div>
+          </div>
+        </Parallax>
+
       </ScrollableAnchor>
+
+
+      // <div className="teamPageWrapper">
+      //   <h2>About the Team</h2>
+      //   <ProfilesCard profiles={profiles} onProfileClick={onProfileClick} />
+      //   <DetailsCard selectedProfile={selectedProfile} />
+      // </div>
+
+
     );
   }
 }

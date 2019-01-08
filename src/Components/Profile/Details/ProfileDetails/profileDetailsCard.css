@@ -1,5 +1,62 @@
-.profileDetailsCard img {
-  border-radius: 50%;
-  width: 30%;
-  height: auto;
+.profileDetailsCard {
+  padding: 5%;
+  margin-right: 20%;
+  text-align: left;
+  color: white;
+}
+
+.profileDetailsNameRole {
+  margin-top: -10%;
+}
+
+.profileDetailsDescription {
+  margin-top: 10%;
+  margin-right: 50%;
+}
+
+.profileDetailsLinks {
+  position: absolute;
+  bottom:0;
+  margin-bottom: 5%;
+}
+
+.profileDetailsLinks > a {
+  padding-right: 20px;
+}
+
+.profileDetailsLinks > a > img {
+  width: 80px;
+  border-radius: 5%;
+}
+
+.profileDetailsCard .profileDetailsNameRole h2 {
+  font-size: 55pt;
+  letter-spacing: 1px;
+}
+
+.profileDetailsCard .profileDetailsNameRole h3 {
+  font-size: 30pt;
+  letter-spacing: 1px;
+  margin-top: -8%;
+}
+
+.profileDetailsCard .profileDetailsDescription h4 {
+  font-style:normal;
+  font-weight: lighter;
+  font-size: 16pt;
+}
+
+.profileDetailsCard p {
+  font-size: 13pt;
+}
+
+.profileDetailsCard p,
+.profileDetailsCard h1,
+.profileDetailsCard h2,
+.profileDetailsCard h3,
+.profileDetailsCard h4,
+.profileDetailsCard h5 {
+  color: var(--lavender);
+  font-weight: lighter;
+  font-style: normal;
 }
