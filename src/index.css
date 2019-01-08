@@ -25,6 +25,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+hr {
+  border-top: 1px solid var(--granite);
+  border-bottom: 1px solid transparent;
+}
+
 h1,
 h2,
 h3,
