@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './profileDetailsCard.css';
 
+import ImageLinkedIn from '../../../../resources/icons/linkedInLogo.png';
+import ImageEmail from '../../../../resources/icons/mailLogo.jpg';
+
 class ProfileDetailsCard extends Component {
   constructor(props) {
     super(props);
@@ -11,15 +14,20 @@ class ProfileDetailsCard extends Component {
 
     return (
       <div className="profileDetailsCard">
-        <div>
-          <img src={ profile.image } alt="Image not found."/>
-          <p>{ profile.firstname } { profile.lastname }</p>
-          <p>{ profile.role }</p>
-          <p>{ profile.description }</p>
-          <p>{ profile.github }</p>
-          <p>{ profile.linkedin }</p>
-
-
+        <div className="profileDetailsNameRole">
+          <h2>{ profile.firstname } { profile.lastname }</h2>
+          <h3>{ profile.role }</h3>
+        </div>
+        <div className="profileDetailsDescription">
+          <h4>{ profile.description }</h4>
+        </div>
+        <div className="profileDetailsLinks">
+          <a id="linkedin" href={ profile.linkedin } target="_blank">
+            <img classname="profileDetailsLogo" src={ ImageLinkedIn }/>
+          </a>
+          <a id="mail" href={ profile.github } target="_blank">
+            <img classname="profileDetailsLogo" src={ ImageEmail }/>
+          </a>
         </div>
       </div>
     );

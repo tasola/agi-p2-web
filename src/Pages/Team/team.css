@@ -21,16 +21,16 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 200%;
-    height: 200%;
+    width: 60vw;
+    height: 100vh;
     display: block;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .75);
 }
 .teamParallax > img {
   position: absolute;
   left:0;
   margin-top: 10%;
-  margin-left: -10%;
+  margin-left: -2%;
   min-height: 130%;
   min-width: 70%;
 

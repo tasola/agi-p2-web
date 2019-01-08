@@ -121,8 +121,10 @@ class Team extends Component {
         <Parallax className="teamParallax" strength={600}>
           <Background className="teamParallax">
               <img src={selectedProfile.image} />
-              <div class="teamDetails">This is some content</div>
           </Background>
+          <div class="teamDetails">
+            <DetailsCard selectedProfile={selectedProfile} />
+          </div>
           <div className="teamContentWrapper">
             <div className="teamContent">
               <h2>team</h2>
