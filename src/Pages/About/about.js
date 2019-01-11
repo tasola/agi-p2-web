@@ -14,7 +14,7 @@ class About extends Component {
     return (
       <div className="aboutPage">
         <ScrollableAnchor id="aboutPage">
-          <Parallax className="aboutParallax" bgImage={mountain} strength={600}>
+          <Parallax className="aboutParallax" bgImage={mountain} strength={700}>
             <div className="aboutContentWrapper">
               <div className="aboutContent">
                 <h2>about</h2>

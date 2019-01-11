@@ -119,7 +119,7 @@ class Team extends Component {
     return (
       <ScrollableAnchor id="teamPage">
         <Parallax className="teamParallax" strength={600}>
-          <Background className="teamParallax">
+          <Background className="teamDetailsPicture">
               <img src={selectedProfile.image} />
           </Background>
           <div class="teamDetails">

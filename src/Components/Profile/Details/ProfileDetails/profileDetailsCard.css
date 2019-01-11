@@ -6,7 +6,7 @@
 }
 
 .profileDetailsNameRole {
-  margin-top: -10%;
+  margin-top: -5%;
 }
 
 .profileDetailsDescription {
@@ -37,7 +37,7 @@
 .profileDetailsCard .profileDetailsNameRole h3 {
   font-size: 30pt;
   letter-spacing: 1px;
-  margin-top: -8%;
+  margin-top: 0;
 }
 
 .profileDetailsCard .profileDetailsDescription h4 {
