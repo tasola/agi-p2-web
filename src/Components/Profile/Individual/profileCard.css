@@ -3,10 +3,18 @@
   height: auto;
 }
 
-.profileCard img {
+.profileCard > img {
   display: flex;
   border-radius: 50%;
   width: 100%;
   height: auto;
   margin: 10%;
+  cursor: pointer;
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.profileCard:hover > img {
+  transform: scale(1.03);
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.09);
 }

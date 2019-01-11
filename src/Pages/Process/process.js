@@ -4,8 +4,12 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { Parallax, Background } from 'react-parallax';
 import { Carousel } from 'react-bootstrap';
 
-import ProcessImg01 from '../../resources/images/process/process01.jpg';
-import ProcessImg02 from '../../resources/images/process/process02.jpg';
+import ProcessImg01 from '../../resources/images/process/process01.png';
+import ProcessImg02 from '../../resources/images/process/process02.png';
+import ProcessImg03 from '../../resources/images/process/process03.png';
+import ProcessImg04 from '../../resources/images/process/process04.png';
+import ProcessImg05 from '../../resources/images/process/process05.png';
+import ProcessImg06 from '../../resources/images/process/process06.png';
 
 class Process extends Component {
   constructor(props) {
@@ -19,29 +23,37 @@ class Process extends Component {
             <Carousel.Item>
                   <img class="carouselImage" alt="900x500" src={ ProcessImg01 } />
                   <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Brainstroming</h3>
                   </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img class="carouselImage" alt="900x500" src={ ProcessImg02 } />
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Development</h3>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img class="carouselImage" alt="900x500" src={ ProcessImg01 } />
+              <img class="carouselImage" alt="900x500" src={ ProcessImg03 } />
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Development</h3>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img class="carouselImage" alt="900x500" src={ ProcessImg01 } />
+              <img class="carouselImage" alt="900x500" src={ ProcessImg04 } />
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>User Study</h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img class="carouselImage" alt="900x500" src={ ProcessImg05 } />
+              <Carousel.Caption>
+                <h3>Open House</h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img class="carouselImage" alt="900x500" src={ ProcessImg06 } />
+              <Carousel.Caption>
+                <h3>Open House</h3>
               </Carousel.Caption>
             </Carousel.Item>
 
