@@ -1,6 +1,6 @@
 .feedbackPage {
   position: relative;
-  height: 120vh;
+  height: 200vh;
   min-height: 100vh;
   width: 100vw;
   min-width: 100vw;
@@ -64,4 +64,71 @@
 .starFilled,
 .starEmpty {
   width: 1.1vw;
+}
+
+.evaluation {
+  margin-top: 6%;
+}
+
+.futureCard {
+  background-color: red;
+  width: 50vw;
+  margin-left: 45vh;
+  max-width: 1200px;
+  height: 45vh;
+
+  position: relative;
+  z-index: 10;
+
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.futureCard:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 54vw;
+  height: 100%;
+  background: var(--lavender);
+  -webkit-transform-origin: 100% 100% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 100% 100% 0;
+  -webkit-transform: skew(-4deg);
+  -ms-transform: skew(-4deg);
+  transform: skew(-4deg);
+  z-index: -1;
+
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.evaluation:hover {
+}
+
+.evaluation:hover > img,
+.evaluation:hover > .futureCard {
+  transform: scale(1.01);
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.08);
+}
+
+.evaluation > img {
+  float: left;
+  height: 45vh;
+  width: auto;
+  left: 0;
+  z-index: -2;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.evaluationText {
+  width: 40vw;
+  margin: auto;
+  padding: 6%;
+  text-align: left;
+}
+
+.evaluationText > h3 {
+  font-size: 2.5vw;
 }
