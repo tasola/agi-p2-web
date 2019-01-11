@@ -71,7 +71,6 @@
 }
 
 .futureCard {
-  background-color: red;
   width: 50vw;
   margin-left: 45vh;
   max-width: 1200px;
@@ -103,14 +102,10 @@
   box-shadow: 0 0px 30px rgba(0, 0, 0, 0.03);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-
-.evaluation:hover {
-}
-
 .evaluation:hover > img,
 .evaluation:hover > .futureCard {
   transform: scale(1.01);
-  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 0px 30px rgba(0, 0, 0, 0.08); */
 }
 
 .evaluation > img {
@@ -131,4 +126,20 @@
 
 .evaluationText > h3 {
   font-size: 2.5vw;
+}
+
+#inversedEvaluation > .futureCard {
+  margin: auto;
+  margin-right: 41vh;
+}
+
+#inversedEvaluation > .futureCard:after {
+  -webkit-transform: skew(4deg);
+  -ms-transform: skew(4deg);
+  transform: skew(4deg);
+  background-color: var(--green);
+}
+
+#inversedEvaluation > img {
+  float: right;
 }

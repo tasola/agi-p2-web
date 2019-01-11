@@ -4,12 +4,12 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import Rating from 'react-rating';
 import './feedback.css';
 
-import imageJulian from '../../resources/images/team/julian.jpg';
-import imageGustav from '../../resources/images/team/gustav.jpg';
-import imageLinnea from '../../resources/images/team/linnea.jpg';
+import imageMattsson from '../../resources/images/feedback/mattsson.jpeg';
+import imageBengtsson from '../../resources/images/feedback/bengtsson.jpeg';
+import imageHeden from '../../resources/images/feedback/heden.jpeg';
 
-import starFilled from '../../resources/icons/Feedback/starFilled.png';
-import starEmpty from '../../resources/icons/Feedback/starEmpty.png';
+import starFilled from '../../resources/icons/feedback/starFilled.png';
+import starEmpty from '../../resources/icons/feedback/starEmpty.png';
 
 const filledStar = <img src={starFilled} className="starFilled" />;
 const emptyStar = <img src={starEmpty} className="starEmpty" />;
@@ -30,30 +30,38 @@ class Feedback extends Component {
             {/* The following code repetition will be removed in another iteration */}
             <div className="reviewCards">
               <div className="reviewCard">
-                <img src={imageJulian} />
-                <h4 className="reviewName">Julian Hedén</h4>
+                <img src={imageBengtsson} />
+                <h4 className="reviewName">Olivia Bengtsson</h4>
                 <div className="starRating">
                   <Rating initialRating={4} readonly emptySymbol={emptyStar} fullSymbol={filledStar} />
                 </div>
                 <div className="reviewQuote">
-                  <p> "This was the most impressive experience ever. It was fantastic. Lorem ipsum!"</p>
+                  <p>
+                    {' '}
+                    "I love it. It's like the new fidget spinner in stress relief - only more real. I would love a Spotify integration in
+                    this app!"
+                  </p>
                 </div>
               </div>
               <div className="reviewCard">
-                <img src={imageGustav} />
-                <h4 className="reviewName">Gustav Johansson</h4>
-                <div className="starRating">
-                  <Rating initialRating={4} readonly emptySymbol={emptyStar} fullSymbol={filledStar} />
-                </div>
-                <div className="reviewQuote">
-                  <p> "Wow...."</p>
-                </div>
-              </div>
-              <div className="reviewCard">
-                <img src={imageLinnea} />
-                <h4 className="reviewName">Linnea Holm</h4>
+                <img src={imageMattsson} />
+                <h4 className="reviewName">Gustav Mattsson</h4>
                 <div className="starRating">
                   <Rating initialRating={5} readonly emptySymbol={emptyStar} fullSymbol={filledStar} />
+                </div>
+                <div className="reviewQuote">
+                  <p>
+                    {' '}
+                    "It all feels very immersive... The visuals, the popping of the bubbles and even the reflections on the bubbles make the
+                    experience very life-like. Well done! "
+                  </p>
+                </div>
+              </div>
+              <div className="reviewCard">
+                <img src={imageHeden} />
+                <h4 className="reviewName">Broder Hedén</h4>
+                <div className="starRating">
+                  <Rating initialRating={4} readonly emptySymbol={emptyStar} fullSymbol={filledStar} />
                 </div>
                 <div className="reviewQuote">
                   <p>
@@ -67,18 +75,37 @@ class Feedback extends Component {
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id="evaluationSection">
-          <div className="evaluation">
-            <img src={imageJulian} />
-            <div className="futureCard">
-              <div className="evaluationText">
-                <h3>The Future</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />
-                  <br />
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+          <div>
+            <div className="evaluation">
+              <img src={imageHeden} />
+              <div className="futureCard">
+                <div className="evaluationText">
+                  <h3>the open house evaluation</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{' '}
+                    <br />
+                    <br />
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="evaluation" id="inversedEvaluation">
+              <img src={imageHeden} />
+              <div className="futureCard">
+                <div className="evaluationText">
+                  <h3>the future</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{' '}
+                    <br />
+                    <br />
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
