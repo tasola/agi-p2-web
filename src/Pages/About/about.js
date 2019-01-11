@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
-import './about.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import './about.css';
 
 import vrIcon from '../../resources/icons/vr.png';
 import mountain from '../../resources/images/about/mountain.jpg';
