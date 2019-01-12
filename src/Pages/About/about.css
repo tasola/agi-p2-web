@@ -33,6 +33,9 @@
   -webkit-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   transform-origin: 100% 0;
+  -webkit-transform: skew(-4deg);
+  -ms-transform: skew(-4deg);
+  transform: skew(-4deg);
   z-index: -1;
 }
 

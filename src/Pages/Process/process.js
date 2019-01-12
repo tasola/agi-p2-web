@@ -20,44 +20,43 @@ class Process extends Component {
     return (
       <ScrollableAnchor id="processPage">
         <Carousel className="processPageWrapper">
-            <Carousel.Item>
-                  <img class="carouselImage" alt="900x500" src={ ProcessImg01 } />
-                  <Carousel.Caption>
-                    <h3>Brainstroming</h3>
-                  </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img class="carouselImage" alt="900x500" src={ ProcessImg02 } />
-              <Carousel.Caption>
-                <h3>Development</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img class="carouselImage" alt="900x500" src={ ProcessImg03 } />
-              <Carousel.Caption>
-                <h3>Development</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img class="carouselImage" alt="900x500" src={ ProcessImg04 } />
-              <Carousel.Caption>
-                <h3>User Study</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img class="carouselImage" alt="900x500" src={ ProcessImg05 } />
-              <Carousel.Caption>
-                <h3>Open House</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img class="carouselImage" alt="900x500" src={ ProcessImg06 } />
-              <Carousel.Caption>
-                <h3>Open House</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-          </Carousel>
+          <Carousel.Item>
+            <img class="carouselImage" alt="900x500" src={ProcessImg01} />
+            <Carousel.Caption>
+              <h3>brainstorming</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img class="carouselImage" alt="900x500" src={ProcessImg02} />
+            <Carousel.Caption>
+              <h3>development</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img class="carouselImage" alt="900x500" src={ProcessImg03} />
+            <Carousel.Caption>
+              <h3>development</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img class="carouselImage" alt="900x500" src={ProcessImg04} />
+            <Carousel.Caption>
+              <h3>UX</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img class="carouselImage" alt="900x500" src={ProcessImg05} />
+            <Carousel.Caption>
+              <h3>open house</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img class="carouselImage" alt="900x500" src={ProcessImg06} />
+            <Carousel.Caption>
+              <h3>open house</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
       </ScrollableAnchor>
 
       // <div className="teamPageWrapper">
@@ -65,8 +64,6 @@ class Process extends Component {
       //   <ProfilesCard profiles={profiles} onProfileClick={onProfileClick} />
       //   <DetailsCard selectedProfile={selectedProfile} />
       // </div>
-
-
     );
   }
 }

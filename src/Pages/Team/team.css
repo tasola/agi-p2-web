@@ -4,7 +4,6 @@
   overflow: hidden;
 }
 
-
 .teamParallax {
   position: relative;
   height: 100vh;
@@ -22,22 +21,21 @@
 }
 
 .teamDetails {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60vw;
-    height: 100vh;
-    display: block;
-    background: rgba(0, 0, 0, .75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60vw;
+  height: 100vh;
+  display: block;
+  background: rgba(0, 0, 0, 0.75);
 }
 .teamDetailsPicture > img {
   position: absolute;
-  left:0;
+  left: 0;
   margin-top: 10%;
   margin-left: -2%;
   min-height: 130%;
   min-width: 70%;
-
 }
 
 .teamContentWrapper {
@@ -60,11 +58,18 @@
   -webkit-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   transform-origin: 100% 0;
+  -webkit-transform: skew(-4deg);
+  -ms-transform: skew(-4deg);
+  transform: skew(-4deg);
   z-index: -1;
 }
 
 .teamContent {
-  padding: 5%;
+  padding: 10%;
+}
+
+.profileCard {
+  margin-top: -4%;
 }
 
 .teamCard {

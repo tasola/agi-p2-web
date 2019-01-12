@@ -2,7 +2,7 @@
   padding: 5%;
   margin-right: 20%;
   text-align: left;
-  color: white;
+  color: rgb(202, 203, 213);
 }
 
 .profileDetailsNameRole {
@@ -14,10 +14,9 @@
   margin-right: 50%;
 }
 
-
 .profileDetailsLinks {
   position: absolute;
-  bottom:0;
+  bottom: 0;
   margin-bottom: 5%;
 }
 
@@ -42,7 +41,7 @@
 }
 
 .profileDetailsCard .profileDetailsDescription h4 {
-  font-style:normal;
+  font-style: normal;
   font-weight: lighter;
   font-size: 16pt;
 }
@@ -57,7 +56,11 @@
 .profileDetailsCard h3,
 .profileDetailsCard h4,
 .profileDetailsCard h5 {
-  color: white;
+  color: rgb(202, 203, 213);
   font-weight: lighter;
   font-style: normal;
+}
+
+.profileDetailsCard h2 {
+  padding-left: 0;
 }

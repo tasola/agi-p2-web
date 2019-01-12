@@ -9,8 +9,6 @@
   --granite: rgb(101, 110, 121);
 }
 
-
-
 html,
 body {
   width: 100%;
@@ -33,9 +31,8 @@ hr {
 }
 
 .icon {
-  fill:red;
+  fill: red;
 }
-
 
 h1,
 h2,
@@ -47,12 +44,17 @@ h5 {
   font-size: 40pt;
 }
 
+h2 {
+  padding: 3%;
+}
+
 h3 {
   font-size: 17pt;
   letter-spacing: 1px;
 }
 
 h4 {
+  padding: 3%;
   font-style: italic;
   font-size: 16pt;
 }

@@ -17,7 +17,7 @@ class About extends Component {
           <Parallax className="aboutParallax" bgImage={mountain} strength={700}>
             <div className="aboutContentWrapper">
               <div className="aboutContent">
-                <h2>About</h2>
+                <h2>about</h2>
                 <p>Life can sometimes be stressful. Common methods to reduce stress often focus on imagining a calm place in your mind.</p>
                 <h4>We wanted to make that calm place real.</h4>
 
@@ -25,7 +25,7 @@ class About extends Component {
 
                 <div className="aboutCard">
                   <img src={vrIcon} />
-                  <h3>Virtual reality</h3>
+                  <h3>virtual reality</h3>
                   <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                 </div>
                 <div className="aboutCard" id="inverseCard">
@@ -35,7 +35,7 @@ class About extends Component {
                 </div>
                 <div className="aboutCard">
                   <img src={vrIcon} />
-                  <h3>Raptor vision</h3>
+                  <h3>raptor vision</h3>
                   <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                 </div>
               </div>
