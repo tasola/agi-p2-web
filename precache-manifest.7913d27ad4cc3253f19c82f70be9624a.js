@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/agi-p2-web/static/media/email.2d08af68.svg"
   },
   {
-    "revision": "ff0ade990d98fc4deae0",
-    "url": "/agi-p2-web/static/css/main.3b60f1e5.chunk.css"
+    "revision": "1bb8ef94b8a5afa383c4",
+    "url": "/agi-p2-web/static/css/main.517da4a9.chunk.css"
   },
   {
     "revision": "55c464606a66b4429b9e",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/agi-p2-web/static/media/linkedin.3c668c52.svg"
   },
   {
-    "revision": "ff0ade990d98fc4deae0",
-    "url": "/agi-p2-web/static/js/main.ff0ade99.chunk.js"
+    "revision": "1bb8ef94b8a5afa383c4",
+    "url": "/agi-p2-web/static/js/main.1bb8ef94.chunk.js"
   },
   {
     "revision": "cb149a0a5ddccfb2162f472bcd305112",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/agi-p2-web/static/media/lake.84aa0462.jpg"
   },
   {
-    "revision": "6bcb78b30c8b6d7f32237656b21b0f72",
+    "revision": "522d33127193a10a0ab0791a1caca8eb",
     "url": "/agi-p2-web/index.html"
   }
 ];
