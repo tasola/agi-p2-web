@@ -1,6 +1,6 @@
 .feedbackPage {
   position: relative;
-  height: 220vh;
+  height: 115vw;
   min-height: 100vh;
   width: 100vw;
   min-width: 100vw;
@@ -30,6 +30,24 @@
   background-color: rgba(211, 212, 197, 0.5);
   box-shadow: 0 0px 30px rgba(0, 0, 0, 0.03);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.futureCards {
+  display: flex;
+}
+.futureCards > .reviewCard {
+  width: 25vw;
+  height: 48vw;
+}
+.futureCards > .reviewCard > img {
+  height: 12vw;
+  width: auto;
+  border-radius: 2%;
+}
+.futureCards > .reviewCard:first-child {
+  margin-left: 20vw;
+}
+#futureQuote {
+  font-style: normal !important;
 }
 
 .reviewCard:hover {
@@ -73,7 +91,7 @@
   margin-top: 6%;
 }
 
-.futureCard {
+/* .futureCard {
   width: 50vw;
   margin-left: 45vh;
   max-width: 1200px;
@@ -105,7 +123,7 @@
 
   box-shadow: 0 0px 30px rgba(0, 0, 0, 0.03);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
+} */
 .evaluation:hover > img,
 .evaluation:hover > .futureCard {
   transform: scale(1.01);

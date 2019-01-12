@@ -77,7 +77,7 @@ class Feedback extends Component {
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id="evaluationSection">
-          <div>
+          {/*<div>
             <div className="evaluation">
               <img src={imageOpenHouse} />
               <div className="futureCard">
@@ -110,6 +110,38 @@ class Feedback extends Component {
                     after the course.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div> */}
+          <div className="futureCards">
+            <div className="reviewCard">
+              <img src={imageOpenHouse} />
+              <h4 className="reviewName">open house</h4>
+              <div className="reviewQuote">
+                <p id="futureQuote">
+                  At the end of the development we participated in KTH VIC:s Open House were we got the opportunity to evaluate the app
+                  thanks to the many visitors. A total of 13 people tested VRStressed during the Open House, and the general impression was
+                  very positive. People generally felt like they were taken away to a calm place thanks to the combination of virtual
+                  reality and audio - something we aimed for from the very start. <br />
+                  <br /> Overall the Open House was very rewarding in several ways. We got our final prototype evaluated, and to a great
+                  extent also approved, by the users. Furthermore we got some great input on how VRStressed potentially could evolve.
+                </p>
+              </div>
+            </div>
+            <div className="reviewCard">
+              <img src={imageFuture} />
+              <h4 className="reviewName">the future</h4>
+              <div className="reviewQuote">
+                <p id="futureQuote">
+                  During the development and evaluation we found several improvements that could be implemented if we decide to continue
+                  working on VRStressed. For instance, the evaluations made us realize that it would be good to be able to toggle the icons
+                  on/off so that you could appreciate your view completely. Furthermore it would have been nice to implement a choice of
+                  environment, and perhaps a musical integration as well. <br />
+                  <br /> One entrepreneurially minded participant even suggested that there could be potential in VRStressed-cafés; a place
+                  where you could rent out an enhanced VRStressed experience with tactile addons such as wind and heat. The idea to add
+                  further multimodality to the app and to speculate in it's market potential has made us discuss further development after
+                  the course.
+                </p>
               </div>
             </div>
           </div>
