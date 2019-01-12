@@ -69,8 +69,11 @@ class Navbar extends Component {
     if (this.state.time >= 2 && !this.state.hover) classHide = 'hideNavbar';
     return (
       <div id="navbar" className={`navbar ${classHide}`}>
-        <a href="#aboutPage">hej</a>
-        <a href="#teamPage">hejdå</a>
+        <a href="#aboutPage">about</a>
+        <a href="#processPage">process</a>
+        <a href="#teamPage">team</a>
+        <a href="#reviewSection">reviews</a>
+        <a href="#evaluationSection">evaluation</a>
       </div>
     );
   }
