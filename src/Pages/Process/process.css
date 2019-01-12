@@ -5,16 +5,14 @@
   background-color: black;
 }
 
-
 .carousel-caption {
   bottom: 18%;
 }
 
 .carousel-caption > h3 {
-  color:white;
+  color: white;
   font-size: 40pt;
 }
-
 
 .processParallax {
   position: relative;

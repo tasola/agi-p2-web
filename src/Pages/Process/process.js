@@ -58,12 +58,6 @@ class Process extends Component {
           </Carousel.Item>
         </Carousel>
       </ScrollableAnchor>
-
-      // <div className="teamPageWrapper">
-      //   <h2>About the Team</h2>
-      //   <ProfilesCard profiles={profiles} onProfileClick={onProfileClick} />
-      //   <DetailsCard selectedProfile={selectedProfile} />
-      // </div>
     );
   }
 }
