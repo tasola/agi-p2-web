@@ -1,0 +1,25 @@
+.processPageWrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: black;
+}
+
+
+.carousel-caption {
+  bottom: 18%;
+}
+
+.carousel-caption > h3 {
+  color:white;
+  font-size: 40pt;
+}
+
+
+.processParallax {
+  position: relative;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+}

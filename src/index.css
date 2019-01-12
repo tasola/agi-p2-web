@@ -9,6 +9,8 @@
   --granite: rgb(101, 110, 121);
 }
 
+
+
 html,
 body {
   width: 100%;
@@ -29,6 +31,11 @@ hr {
   border-top: 1px solid var(--granite);
   border-bottom: 1px solid transparent;
 }
+
+.icon {
+  fill:red;
+}
+
 
 h1,
 h2,

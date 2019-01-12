@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './profileDetailsCard.css';
 
-import ImageLinkedIn from '../../../../resources/icons/linkedInLogo.png';
-import ImageEmail from '../../../../resources/icons/mailLogo.jpg';
+import ImageLinkedIn from '../../../../resources/icons/linkedin.svg';
+import ImageEmail from '../../../../resources/icons/email.svg';
 
 class ProfileDetailsCard extends Component {
   constructor(props) {
@@ -11,6 +11,7 @@ class ProfileDetailsCard extends Component {
 
   render() {
     const profile = this.props.selectedProfile;
+    const mail = "mailto:" + profile.mail;
 
     return (
       <div className="profileDetailsCard">
@@ -19,13 +20,13 @@ class ProfileDetailsCard extends Component {
           <h3>{ profile.role }</h3>
         </div>
         <div className="profileDetailsDescription">
-          <h4>{ profile.description }</h4>
+          <p>{ profile.description }</p>
         </div>
         <div className="profileDetailsLinks">
           <a id="linkedin" href={ profile.linkedin } target="_blank">
             <img classname="profileDetailsLogo" src={ ImageLinkedIn }/>
           </a>
-          <a id="mail" href={ profile.github } target="_blank">
+          <a id="mail" href={ mail } target="_blank">
             <img classname="profileDetailsLogo" src={ ImageEmail }/>
           </a>
         </div>

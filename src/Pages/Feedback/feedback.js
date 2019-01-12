@@ -8,8 +8,8 @@ import imageMattsson from '../../resources/images/feedback/mattsson.jpeg';
 import imageBengtsson from '../../resources/images/feedback/bengtsson.jpeg';
 import imageHeden from '../../resources/images/feedback/heden.jpeg';
 
-import starFilled from '../../resources/icons/feedback/starFilled.png';
-import starEmpty from '../../resources/icons/feedback/starEmpty.png';
+import starFilled from '../../resources/icons/Feedback/starFilled.png';
+import starEmpty from '../../resources/icons/Feedback/starEmpty.png';
 
 const filledStar = <img src={starFilled} className="starFilled" />;
 const emptyStar = <img src={starEmpty} className="starEmpty" />;
