@@ -1,7 +1,7 @@
 {
-  "main.css": "/agi-p2-web/static/css/main.b82feae5.chunk.css",
-  "main.js": "/agi-p2-web/static/js/main.979cf544.chunk.js",
-  "main.js.map": "/agi-p2-web/static/js/main.979cf544.chunk.js.map",
+  "main.css": "/agi-p2-web/static/css/main.85b02e37.chunk.css",
+  "main.js": "/agi-p2-web/static/js/main.176abc82.chunk.js",
+  "main.js.map": "/agi-p2-web/static/js/main.176abc82.chunk.js.map",
   "static/js/1.38b9d9fc.chunk.js": "/agi-p2-web/static/js/1.38b9d9fc.chunk.js",
   "static/js/1.38b9d9fc.chunk.js.map": "/agi-p2-web/static/js/1.38b9d9fc.chunk.js.map",
   "runtime~main.js": "/agi-p2-web/static/js/runtime~main.9cb178a2.js",
@@ -28,8 +28,8 @@
   "static/media/future.jpeg": "/agi-p2-web/static/media/future.7411cd57.jpeg",
   "static/media/logo.svg": "/agi-p2-web/static/media/logo.5d5d9eef.svg",
   "static/media/start.css": "/agi-p2-web/static/media/lake.84aa0462.jpg",
-  "static/css/main.b82feae5.chunk.css.map": "/agi-p2-web/static/css/main.b82feae5.chunk.css.map",
+  "static/css/main.85b02e37.chunk.css.map": "/agi-p2-web/static/css/main.85b02e37.chunk.css.map",
   "index.html": "/agi-p2-web/index.html",
-  "precache-manifest.b9081b89638db844f346b736d29f5023.js": "/agi-p2-web/precache-manifest.b9081b89638db844f346b736d29f5023.js",
+  "precache-manifest.71cc2a1be550ef1c426828886601ccee.js": "/agi-p2-web/precache-manifest.71cc2a1be550ef1c426828886601ccee.js",
   "service-worker.js": "/agi-p2-web/service-worker.js"
 }
