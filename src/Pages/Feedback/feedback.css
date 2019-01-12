@@ -81,6 +81,7 @@
 
   position: relative;
   z-index: 10;
+  overflow: scroll;
 
   box-shadow: 0 0px 30px rgba(0, 0, 0, 0.03);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -135,7 +136,7 @@
 
 #inversedEvaluation > .futureCard {
   margin: auto;
-  margin-right: 41vh;
+  margin-right: -3vh;
 }
 
 #inversedEvaluation > .futureCard:after {

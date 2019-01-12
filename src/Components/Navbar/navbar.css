@@ -1,6 +1,6 @@
 .navbar {
   position: fixed;
-  height: 5vh;
+  height: 4.2vh;
   left: 0;
   top: 0;
   background-color: rgba(202, 203, 213, 0.8);
@@ -24,7 +24,6 @@
   right: 0;
   width: 54vw;
   height: 5vh;
-  margin-top: -0.2vh;
   margin-right: -0.1vh;
   background: var(--lavender);
   -webkit-transform-origin: 100% 100% 0;
@@ -58,5 +57,5 @@
 }
 
 .hideNavbar {
-  top: -5vh;
+  top: -7vh;
 }
