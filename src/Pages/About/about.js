@@ -4,6 +4,8 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import './about.css';
 
 import vrIcon from '../../resources/icons/vr.png';
+import controllerIcon from '../../resources/icons/controllers.png';
+import visionIcon from '../../resources/icons/vision.png';
 import mountain from '../../resources/images/about/mountain.jpg';
 
 // Change the following to a downloaded img in /resources when an appropriate one is found.
@@ -26,17 +28,26 @@ class About extends Component {
                 <div className="aboutCard">
                   <img src={vrIcon} />
                   <h3>virtual reality</h3>
-                  <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+                  <p>
+                    In order to make the user feel like they actually are somewhere else, we decided to use virtual reality in combination
+                    with 3D sound.
+                  </p>
                 </div>
                 <div className="aboutCard" id="inverseCard">
-                  <img src={vrIcon} />
-                  <h3>3D sound</h3>
-                  <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+                  <img src={controllerIcon} />
+                  <h3>seamless controlling</h3>
+                  <p>
+                    As for the interactions it was of great importance for us to make the controlling as natural and seamless as possible to
+                    not disrupt the user.
+                  </p>
                 </div>
                 <div className="aboutCard">
-                  <img src={vrIcon} />
+                  <img src={visionIcon} id="smallerIcon" />
                   <h3>raptor vision</h3>
-                  <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+                  <p>
+                    The most important part of a person's safe-zone is often the visuals. We had the pleasure to use Raptor Vision's 270 deg
+                    camera to record the soothing visuals of VRStressed.
+                  </p>
                 </div>
               </div>
             </div>
