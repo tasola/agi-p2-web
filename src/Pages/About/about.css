@@ -64,7 +64,7 @@
 
 .aboutCard > img {
   position: absolute;
-  width: 5vw;
+  width: 4vw;
   height: auto;
   left: 0;
   top: 0;
@@ -107,6 +107,6 @@
 }
 
 #smallerIcon {
-  width: 4vw;
+  width: 3vw;
   height: auto;
 }

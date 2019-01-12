@@ -41,7 +41,7 @@
   float: left;
   margin-left: 2vw;
   font-family: 'Abril Fatface';
-  font-size: 1.6vw;
+  font-size: 1.3vw;
   font-style: italic;
   color: var(--granite);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
