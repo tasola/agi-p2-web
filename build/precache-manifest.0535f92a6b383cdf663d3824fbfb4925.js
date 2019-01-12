@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/agi-p2-web/static/media/email.2d08af68.svg"
   },
   {
-    "revision": "ffccd4b043411d6ebea6",
-    "url": "/agi-p2-web/static/css/main.a241d9cc.chunk.css"
+    "revision": "4708fca7f4bc77bfee37",
+    "url": "/agi-p2-web/static/css/main.69518f42.chunk.css"
   },
   {
-    "revision": "38b9d9fc42cb9f6ca0df",
-    "url": "/agi-p2-web/static/js/1.38b9d9fc.chunk.js"
+    "revision": "55c464606a66b4429b9e",
+    "url": "/agi-p2-web/static/js/1.55c46460.chunk.js"
   },
   {
     "revision": "9cb178a27f1b5ed673f3",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/agi-p2-web/static/media/linkedin.3c668c52.svg"
   },
   {
-    "revision": "ffccd4b043411d6ebea6",
-    "url": "/agi-p2-web/static/js/main.ffccd4b0.chunk.js"
+    "revision": "4708fca7f4bc77bfee37",
+    "url": "/agi-p2-web/static/js/main.4708fca7.chunk.js"
   },
   {
     "revision": "cb149a0a5ddccfb2162f472bcd305112",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/agi-p2-web/static/media/lake.84aa0462.jpg"
   },
   {
-    "revision": "53c93cdbb8bf56ca76979c58dceaea37",
+    "revision": "0be4a0fecc869773eef37d3df4e08c06",
     "url": "/agi-p2-web/index.html"
   }
 ];
