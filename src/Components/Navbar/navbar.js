@@ -65,8 +65,8 @@ class Navbar extends Component {
   }
 
   render() {
-    let classHide = this.state.isHide ? 'hide' : '';
-    if (this.state.time >= 2 && !this.state.hover) classHide = 'hide';
+    let classHide = this.state.isHide ? 'hideNavbar' : '';
+    if (this.state.time >= 2 && !this.state.hover) classHide = 'hideNavbar';
     return (
       <div id="navbar" className={`navbar ${classHide}`}>
         <a href="#aboutPage">hej</a>
