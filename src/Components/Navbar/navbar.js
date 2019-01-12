@@ -70,10 +70,11 @@ class Navbar extends Component {
     return (
       <div id="navbar" className={`navbar ${classHide}`}>
         <a href="#aboutPage">about</a>
-        <a href="#processPage">process</a>
+        <a href="#demoPage">demo</a>
         <a href="#teamPage">team</a>
         <a href="#reviewSection">reviews</a>
         <a href="#evaluationSection">evaluation</a>
+        <a href="#processPage">process</a>
       </div>
     );
   }
