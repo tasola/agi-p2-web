@@ -7,6 +7,7 @@ import About from './Pages/About/about';
 import Process from './Pages/Process/process';
 import Team from './Pages/Team/team';
 import Feedback from './Pages/Feedback/feedback';
+import Demo from './Pages/Demo/demo';
 
 class App extends Component {
   render() {
@@ -15,9 +16,10 @@ class App extends Component {
         <Navbar />
         <Start />
         <About />
-        <Process />
-        <Feedback />
+        <Demo />
         <Team />
+        <Feedback />
+        <Process />
       </div>
     );
   }
