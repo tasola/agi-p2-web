@@ -34,8 +34,15 @@
 .futureCards {
   display: flex;
 }
+.futureCards > .reviewCard > .reviewQuote {
+  padding-top: 0;
+}
+.futureCards > .reviewCard > .reviewName {
+  margin-top: 1.5vw;
+}
 .futureCards > .reviewCard {
-  width: 25vw;
+  padding-top: 0;
+  width: 30vw;
   height: 48vw;
 }
 .futureCards > .reviewCard > img {
@@ -44,7 +51,7 @@
   border-radius: 2%;
 }
 .futureCards > .reviewCard:first-child {
-  margin-left: 20vw;
+  margin-left: 15.5vw;
 }
 #futureQuote {
   font-style: normal !important;
