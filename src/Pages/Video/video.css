@@ -1,0 +1,21 @@
+.videoPage {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+}
+
+
+.video {
+  width: 100vw;
+  height: 100vh;
+}
+
+.videoWrapper {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  z-index: 10;
+  background-color: var(--cloud);
+}

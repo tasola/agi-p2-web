@@ -1,9 +1,10 @@
 .profilesCard {
   /* display: flex; */
-  padding-top: 5%;
+  /* padding-top: 5%; */
   float:left;
   width: 40vw;
   height: 95vh;
+  margin-top: -10%;
 }
 
 .profilesList {

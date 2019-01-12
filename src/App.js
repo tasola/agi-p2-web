@@ -7,6 +7,7 @@ import About from './Pages/About/about';
 import Process from './Pages/Process/process';
 import Team from './Pages/Team/team';
 import Feedback from './Pages/Feedback/feedback';
+import Video from './Pages/Video/video';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Navbar />
         <Start />
         <About />
+        <Video />
         <Process />
         <Team />
         <Feedback />
